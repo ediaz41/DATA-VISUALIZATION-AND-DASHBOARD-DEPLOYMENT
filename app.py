@@ -52,4 +52,4 @@ mean_fac = df_filtered[facultades].mean()
 fig3 = px.pie(values=mean_fac.values, names=mean_fac.index, title="Distribución Promedio de Matrículas por Facultad")
 st.plotly_chart(fig3, use_container_width=True)
 
-st.success("✅ Panel interactivo listo. ¡Ahora súbelo a GitHub y publícalo en Streamlit Cloud!")
+st.success("✅ Panel interactivo listo")
